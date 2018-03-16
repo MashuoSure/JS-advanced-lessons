@@ -1,0 +1,53 @@
+var num = 1;
+var str = "some string";
+var b = true;
+var n = null;
+var u = undefined;//如果没赋值的话，是什么情况
+
+var arr = ["apple", "pear", "banana"];
+var func = function(){
+    return "this a function";
+};
+var obj = new Object();
+obj.name = "test";
+
+console.log("\n");
+console.log(typeof num);
+console.log(typeof str);
+console.log(typeof b);
+console.log(typeof n);
+console.log(typeof u);
+console.log("\n");
+console.log(typeof arr);
+console.log(typeof func);
+console.log(typeof obj);
+console.log(typeof Number);
+console.log(typeof String);
+console.log(typeof Boolean);
+console.log(typeof Object);
+console.log(typeof Array); 
+console.log(typeof Function);
+console.log(typeof RegExp);
+console.log(typeof Error);
+console.log(typeof Math);
+console.log(typeof JSON);
+var a1 = 2;
+var a2 = "2";
+console.log(a1==a2);
+console.log(a1===a2);
+var b1 = {};
+var b2 = {};
+console.log(b1==b2);
+console.log(b1===b2);
+console.log(b1===b1);
+var c1 = 23;
+var c2 = new Number(23);
+console.log(c1==c2);
+console.log(c1===c2);
+var str2 = "abc";
+console.log(str2.length);
+str2.length = 1;
+console.log(str2);
+console.log({}instanceof Object);
+console.log([]instanceof Object);
+console.log([]instanceof Array);
